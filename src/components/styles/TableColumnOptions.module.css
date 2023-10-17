@@ -1,0 +1,85 @@
+.container{
+    width: 300px;
+    margin-right: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 25px;
+
+
+    margin-bottom: 10px;
+  
+}
+
+.checkboxcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+  
+   
+    
+   
+}
+
+.optionsheader {
+    font-weight: bold;
+    
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width: fit-content;
+
+    margin-top: 10px;
+
+   
+}
+
+.innercontainer {
+    display: flex; 
+ align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+   
+}
+
+
+@media (max-width: 1320px) {
+    .container { 
+        width: calc(100% - 20px);
+        margin-right: 0;
+        position:inherit;
+
+        flex-direction: column;
+      
+    }
+    .innercontainer {
+        width: fit-content;
+        margin: 0 auto;
+
+    }
+    .innercontainer div {
+        flex-direction: row;
+    }
+
+    .checkboxcontainer {
+        display: flex;
+        flex-direction: row;
+     
+    
+        
+    
+    }
+
+    .optionsheader {
+        align-self: flex-start;
+    }
+
+    .checkbox {
+        justify-self: flex-start;
+    }
+    
+}
+
+
+

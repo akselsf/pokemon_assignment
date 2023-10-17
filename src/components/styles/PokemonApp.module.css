@@ -1,0 +1,33 @@
+.appContainer {
+
+}
+
+.contentcontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.subtext {
+
+    margin-bottom: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 945px) {
+    .contentcontainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+}
+
